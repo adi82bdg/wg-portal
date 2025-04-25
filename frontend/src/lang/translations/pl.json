@@ -1,6 +1,6 @@
 {
   "languages": {
-    "en": "English"
+    "pl": "Polski"
   },
   "general": {
     "pagination": {
@@ -8,43 +8,43 @@
       "all": "All (slow)"
     },
     "search": {
-      "placeholder": "Search...",
-      "button": "Search"
+      "placeholder": "Szukaj...",
+      "button": "Szukaj"
     },
-    "select-all": "Select all",
-    "yes": "Yes",
-    "no": "No",
-    "cancel": "Cancel",
-    "close": "Close",
-    "save": "Save",
-    "delete": "Delete"
+    "select-all": "Zaznacz wszystkie",
+    "yes": "Tak",
+    "no": "Nie",
+    "cancel": "Anuluj",
+    "close": "Zamknij",
+    "save": "Zapisz",
+    "delete": "Usuń"
   },
   "login": {
-    "headline": "Please sign in",
+    "headline": "Proszę zaloguj się",
     "username": {
-      "label": "Username",
-      "placeholder": "Please enter your username"
+      "label": "Użytkownik",
+      "placeholder": "Wprowadz nazwe użytkownika"
     },
     "password": {
-      "label": "Password",
-      "placeholder": "Please enter your password"
+      "label": "Hasło",
+      "placeholder": "Wprowadz swoje hasło"
     },
-    "button": "Sign in"
+    "button": "Zaloguj"
   },
   "menu": {
-    "home": "Home",
-    "interfaces": "Interfaces",
-    "users": "Users",
-    "lang": "Toggle Language",
-    "profile": "My Profile",
-    "settings": "Settings",
+    "home": "Strona Główna",
+    "interfaces": "Interfejs",
+    "users": "Użytkownik",
+    "lang": "Wybierz język",
+    "profile": "Mój Profil",
+    "settings": "Ustawienia",
     "audit": "Audit Log",
-    "login": "Login",
-    "logout": "Logout"
+    "login": "Zaloguj",
+    "logout": "Wyloguj"
   },
   "home": {
     "headline": "WireGuard® VPN Portal",
-    "info-headline": "More Information",
+    "info-headline": "Więcej Informacji",
     "abstract": "WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN.",
     "installation": {
       "box-header": "WireGuard Installation",
@@ -53,22 +53,22 @@
       "button": "Open Instructions"
     },
     "about-wg": {
-      "box-header": "About WireGuard",
-      "headline": "About",
+      "box-header": "O WireGuard",
+      "headline": "O..",
       "content": "WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography.",
-      "button": "More"
+      "button": "Więcej"
     },
     "about-portal": {
       "box-header": "About WireGuard Portal",
       "headline": "WireGuard Portal",
       "content": "WireGuard Portal is a simple, web based configuration portal for WireGuard.",
-      "button": "More"
+      "button": "Więcej"
     },
     "profiles": {
-      "headline": "VPN Profiles",
+      "headline": "Profile VPN",
       "abstract": "You can access and download your personal VPN configurations via your Userprofile.",
       "content": "To find all your configured profiles click on the button below.",
-      "button": "Open my profile"
+      "button": "Otwórz mój profil"
     },
     "admin": {
       "headline": "Administration Area",
@@ -92,8 +92,8 @@
       "abstract": "Currently, there are no peers available for the selected WireGuard interface."
     },
     "table-heading": {
-      "name": "Name",
-      "user": "User",
+      "name": "Nazwa",
+      "user": "Użytkownik",
       "ip": "IP's",
       "endpoint": "Endpoint",
       "status": "Status"
@@ -125,8 +125,8 @@
     "button-edit-peer": "Edit Peer",
     "peer-disabled": "Peer is disabled, reason:",
     "peer-expiring": "Peer is expiring at",
-    "peer-connected": "Connected",
-    "peer-not-connected": "Not Connected",
+    "peer-connected": "Połączono",
+    "peer-not-connected": "Brak Połączenia",
     "peer-handshake": "Last handshake:"
   },
   "users": {
@@ -134,19 +134,19 @@
     "table-heading": {
       "id": "ID",
       "email": "E-Mail",
-      "firstname": "Firstname",
-      "lastname": "Lastname",
+      "firstname": "Imię",
+      "lastname": "Nazwisko",
       "source": "Source",
       "peers": "Peers",
-      "admin": "Admin"
+      "admin": "Administrator"
     },
     "no-user": {
       "headline": "No users available",
       "abstract": "Currently, there are no users registered with WireGuard Portal."
     },
-    "button-add-user": "Add User",
-    "button-show-user": "Show User",
-    "button-edit-user": "Edit User",
+    "button-add-user": "Dodaj użytkownika",
+    "button-show-user": "Pokaż użytkownika",
+    "button-edit-user": "Edytuj użytkownika",
     "user-disabled": "User is disabled, reason:",
     "user-locked": "Account is locked, reason:",
     "admin": "User has administrator privileges",
@@ -155,7 +155,7 @@
   "profile": {
     "headline": "My VPN Peers",
     "table-heading": {
-      "name": "Name",
+      "name": "Nazwa",
       "ip": "IP's",
       "stats": "Status",
       "interface": "Server Interface"
@@ -164,16 +164,16 @@
       "headline": "No peers available",
       "abstract": "Currently, there are no peers associated with your user profile."
     },
-    "peer-connected": "Connected",
+    "peer-connected": "Połączono",
     "button-add-peer": "Add Peer",
     "button-show-peer": "Show Peer",
     "button-edit-peer": "Edit Peer"
   },
   "settings": {
-    "headline": "Settings",
+    "headline": "Ustawienia",
     "abstract": "Here you can change your personal settings.",
     "api": {
-      "headline": "API Settings",
+      "headline": "Ustawienia API",
       "abstract": "Here you can configure the RESTful API settings.",
       "active-description": "The API is currently active for your user account. All API requests are authenticated with Basic Auth. Use the following credentials for authentication.",
       "inactive-description": "The API is currently inactive. Press the button below to activate it.",
@@ -199,11 +199,11 @@
     "entries-headline": "Log Entries",
     "table-heading": {
       "id": "#",
-      "time": "Time",
-      "user": "User",
+      "time": "Czas",
+      "user": "Użytkownik",
       "severity": "Severity",
       "origin": "Origin",
-      "message": "Message"
+      "message": "Wiadomośc"
     }
   },
   "modals": {
