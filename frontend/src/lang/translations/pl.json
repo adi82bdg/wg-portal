@@ -53,7 +53,7 @@
       "button": "Open Instructions"
     },
     "about-wg": {
-      "box-header": "About WireGuard",
+      "box-header": "O WireGuard",
       "headline": "About",
       "content": "WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography.",
       "button": "More"
