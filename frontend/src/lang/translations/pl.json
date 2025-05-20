@@ -44,25 +44,25 @@
   },
   "home": {
     "headline": "WireGuard® VPN Portal",
-    "info-headline": "More Information",
+    "info-headline": "Więcej informacji",
     "abstract": "WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN.",
     "installation": {
       "box-header": "WireGuard Installation",
-      "headline": "Installation",
+      "headline": "Instalacja",
       "content": "Installation instructions for client software can be found on the official WireGuard website.",
-      "button": "Open Instructions"
+      "button": "Otwórz instrukcję"
     },
     "about-wg": {
       "box-header": "O WireGuard",
-      "headline": "About",
+      "headline": "O...",
       "content": "WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography.",
-      "button": "More"
+      "button": "Więcej"
     },
     "about-portal": {
       "box-header": "About WireGuard Portal",
       "headline": "WireGuard Portal",
       "content": "WireGuard Portal is a simple, web based configuration portal for WireGuard.",
-      "button": "More"
+      "button": "Więcej"
     },
     "profiles": {
       "headline": "VPN Profiles",
@@ -71,7 +71,7 @@
       "button": "Open my profile"
     },
     "admin": {
-      "headline": "Administration Area",
+      "headline": "Strefa Adeministratora",
       "abstract": "In the administration area you can manage WireGuard peers and the server interface as well as users that are allowed to log in to the WireGuard Portal.",
       "content": "",
       "button-admin": "Open Server Administration",
@@ -92,8 +92,8 @@
       "abstract": "Currently, there are no peers available for the selected WireGuard interface."
     },
     "table-heading": {
-      "name": "Name",
-      "user": "User",
+      "name": "Nazwa",
+      "user": "Użytkownik",
       "ip": "IP's",
       "endpoint": "Endpoint",
       "status": "Status"
@@ -119,24 +119,24 @@
       "button-edit": "Edit interface"
     },
     "button-add-interface": "Add Interface",
-    "button-add-peer": "Add Peer",
-    "button-add-peers": "Add Multiple Peers",
-    "button-show-peer": "Show Peer",
-    "button-edit-peer": "Edit Peer",
+    "button-add-peer": "Dodaj Peer",
+    "button-add-peers": "Dodaj Multiple Peers",
+    "button-show-peer": "Pokaż Peer",
+    "button-edit-peer": "Edytuj Peer",
     "peer-disabled": "Peer is disabled, reason:",
     "peer-expiring": "Peer is expiring at",
-    "peer-connected": "Connected",
-    "peer-not-connected": "Not Connected",
-    "peer-handshake": "Last handshake:"
+    "peer-connected": "Połączony",
+    "peer-not-connected": "Nie Połączony",
+    "peer-handshake": "Ostani handshake:"
   },
   "users": {
     "headline": "User Administration",
     "table-heading": {
       "id": "ID",
       "email": "E-Mail",
-      "firstname": "Firstname",
-      "lastname": "Lastname",
-      "source": "Source",
+      "firstname": "Imię",
+      "lastname": "Nazwisko",
+      "source": "Źródło",
       "peers": "Peers",
       "admin": "Admin"
     },
