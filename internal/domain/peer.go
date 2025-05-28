@@ -9,6 +9,7 @@ import (
 	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 
 	"github.com/h44z/wg-portal/internal"
+	"github.com/h44z/wg-portal/internal/config"
 )
 
 type PeerIdentifier string
@@ -35,7 +36,7 @@ type Peer struct {
 	EndpointPublicKey   ConfigOption[string] `gorm:"embedded;embeddedPrefix:endpoint_pubkey_"` // the endpoint public key
 	AllowedIPsStr       ConfigOption[string] `gorm:"embedded;embeddedPrefix:allowed_ips_str_"` // all allowed ip subnets, comma seperated
 	ExtraAllowedIPsStr  string               // all allowed ip subnets on the server side, comma seperated
-	PresharedKey        PreSharedKey         // the pre-shared Key of the peer
+	PresharedKey        PreSharedKey         `gorm:"serializer:encstr"`                              // the pre-shared Key of the peer
 	PersistentKeepalive ConfigOption[int]    `gorm:"embedded;embeddedPrefix:persistent_keep_alive_"` // the persistent keep-alive interval
 
 	// WG Portal specific
@@ -129,16 +130,18 @@ func (p *Peer) GenerateDisplayName(prefix string) {
 }
 
 // OverwriteUserEditableFields overwrites the user editable fields of the peer with the values from the userPeer
-func (p *Peer) OverwriteUserEditableFields(userPeer *Peer) {
+func (p *Peer) OverwriteUserEditableFields(userPeer *Peer, cfg *config.Config) {
 	p.DisplayName = userPeer.DisplayName
-	p.Interface.PublicKey = userPeer.Interface.PublicKey
-	p.Interface.PrivateKey = userPeer.Interface.PrivateKey
+	if cfg.Core.EditableKeys {
+		p.Interface.PublicKey = userPeer.Interface.PublicKey
+		p.Interface.PrivateKey = userPeer.Interface.PrivateKey
+		p.PresharedKey = userPeer.PresharedKey
+	}
 	p.Interface.Mtu = userPeer.Interface.Mtu
 	p.PersistentKeepalive = userPeer.PersistentKeepalive
 	p.ExpiresAt = userPeer.ExpiresAt
 	p.Disabled = userPeer.Disabled
 	p.DisabledReason = userPeer.DisabledReason
-	p.PresharedKey = userPeer.PresharedKey
 }
 
 type PeerInterfaceConfig struct {
