@@ -45,51 +45,51 @@
   "home": {
     "headline": "WireGuard® VPN Portal",
     "info-headline": "Więcej informacji",
-    "abstract": "WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN.",
+    "abstract": "WireGuard® to niezwykle prosta, a jednocześnie szybka i nowoczesna sieć VPN, wykorzystująca najnowocześniejszą kryptografię. Ma być szybsza, prostsza, bardziej uproszczona i bardziej użyteczna niż IPsec, a jednocześnie oszczędzić użytkownikowi wielu problemów. Ma być znacznie wydajniejsza niż OpenVPN.",
     "installation": {
       "box-header": "WireGuard Installation",
       "headline": "Instalacja",
-      "content": "Installation instructions for client software can be found on the official WireGuard website.",
+      "content": "Instrukcje instalacji oprogramowania klienckiego można znaleźć na oficjalnej stronie WireGuard.",
       "button": "Otwórz instrukcję"
     },
     "about-wg": {
       "box-header": "O WireGuard",
       "headline": "O...",
-      "content": "WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography.",
+      "content": "WireGuard® to niezwykle prosta, a jednocześnie szybka i nowoczesna sieć VPN wykorzystująca najnowocześniejsze technologie kryptograficzne.",
       "button": "Więcej"
     },
     "about-portal": {
-      "box-header": "About WireGuard Portal",
+      "box-header": "O WireGuard Portal",
       "headline": "WireGuard Portal",
-      "content": "WireGuard Portal is a simple, web based configuration portal for WireGuard.",
+      "content": "WireGuard Portal to prosty, internetowy portal konfiguracyjny dla WireGuard.",
       "button": "Więcej"
     },
     "profiles": {
-      "headline": "VPN Profiles",
-      "abstract": "You can access and download your personal VPN configurations via your Userprofile.",
-      "content": "To find all your configured profiles click on the button below.",
-      "button": "Open my profile"
+      "headline": "VPN Profile",
+      "abstract": "Dostęp do osobistych konfiguracji VPN i możliwość ich pobrania są możliwe za pośrednictwem profilu użytkownika.",
+      "content": "Aby znaleźć wszystkie skonfigurowane profile, kliknij przycisk poniżej.",
+      "button": "Otwóz moje profile"
     },
     "admin": {
       "headline": "Strefa Adeministratora",
-      "abstract": "In the administration area you can manage WireGuard peers and the server interface as well as users that are allowed to log in to the WireGuard Portal.",
+      "abstract": "W obszarze administracyjnym możesz zarządzać użytkownikami WireGuard i interfejsem serwera, a także użytkownikami, którzy mają prawo logowania się do portalu WireGuard.",
       "content": "",
-      "button-admin": "Open Server Administration",
-      "button-user": "Open User Administration"
+      "button-admin": "Zarządzanie serwerem otwartym",
+      "button-user": "Otwórz administrację użytkownikami"
     }
   },
   "interfaces": {
-    "headline": "Interface Administration",
-    "headline-peers": "Current VPN Peers",
-    "headline-endpoints": "Current Endpoints",
+    "headline": "Administracja Interfejsem",
+    "headline-peers": "Bieżący VPN Peers",
+    "headline-endpoints": "Aktualne punkty końcowe",
     "no-interface": {
-      "default-selection": "No Interface available",
-      "headline": "No interfaces found...",
-      "abstract": "Click the plus button above to create a new WireGuard interface."
+      "default-selection": "Brak dostępnego interfejsu",
+      "headline": "Nie znaleziono interfejsów...",
+      "abstract": "Kliknij przycisk plus powyżej, aby utworzyć nowy interfejs WireGuard."
     },
     "no-peer": {
-      "headline": "No peers available",
-      "abstract": "Currently, there are no peers available for the selected WireGuard interface."
+      "headline": "Brak dostępnych peer",
+      "abstract": "Obecnie nie ma dostępnych równorzędnych elementów dla wybranego interfejsu WireGuard."
     },
     "table-heading": {
       "name": "Nazwa",
